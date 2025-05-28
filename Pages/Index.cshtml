@@ -1,0 +1,45 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+ <div class="border border-2">
+    <div class="text-center">
+        <h1 class="display-4">Pergunte ao llama</h1>
+    </div>
+</div>
+
+@section scripts {
+    <script src="~/js/atualizar.js"></script> 
+}
+
+<div class="border border-2 border-color-primary mt-3" id="CampoResposta">
+    <div class="text-center ">    
+        @await Html.PartialAsync("_ParcialViewResposta", @Model.respostaIA)
+    </div>
+</div>  
+
+<div class="border border-2" style="margin-top: 280px;">
+    <div class="text-center mt-2">
+        <h2>Faça sua Pergunta</h2>
+    </div>
+
+    <div class="text-center mt-4">
+        <form method="post">
+            <div class="form-group">
+                <input type="text" id="CampoPergunta" name="Pergunta" class="form-control" placeholder="Digite sua pergunta aqui..." required />
+            </div>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <select class="form-select w-auto me-1"  id="campoMetodo" name="metodo"> 
+                        <option value="Pergunta">Ferramentas</option>
+                        <option value="ExplicarTermo">Explicar o Termo </option> 
+                        <option value="AnaliseSentimento">Analisar frase</option>
+                        <option value="Resumo">Resumir Conteúdo</option>
+                    </select>
+                 <button type="button" class="btn btn-primary mt-2" id="btnAtualizarResposta">Enviar</button>
+                </div>
+        </form>
+    </div>
+
+</div>

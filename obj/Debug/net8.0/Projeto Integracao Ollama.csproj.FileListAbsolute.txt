@@ -1,0 +1,30 @@
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\bin\Debug\net8.0\appsettings.json
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\bin\Debug\net8.0\Projeto Integracao Ollama.staticwebassets.runtime.json
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\bin\Debug\net8.0\Projeto Integracao Ollama.exe
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\bin\Debug\net8.0\Projeto Integracao Ollama.deps.json
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\bin\Debug\net8.0\Projeto Integracao Ollama.runtimeconfig.json
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\bin\Debug\net8.0\Projeto Integracao Ollama.dll
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\bin\Debug\net8.0\Projeto Integracao Ollama.pdb
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\Projeto Integracao Ollama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\Projeto Integracao Ollama.AssemblyInfoInputs.cache
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\Projeto Integracao Ollama.AssemblyInfo.cs
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\Projeto Integracao Ollama.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\Projeto Integracao Ollama.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\Projeto Integracao Ollama.RazorAssemblyInfo.cache
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\Projeto Integracao Ollama.RazorAssemblyInfo.cs
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\staticwebassets\msbuild.Projeto Integracao Ollama.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\staticwebassets\msbuild.build.Projeto Integracao Ollama.props
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Projeto Integracao Ollama.props
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Projeto Integracao Ollama.props
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\scopedcss\bundle\Projeto Integracao Ollama.styles.css
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\scopedcss\projectbundle\Projeto Integracao Ollama.bundle.scp.css
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\Projeto Integracao Ollama.dll
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\refint\Projeto Integracao Ollama.dll
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\Projeto Integracao Ollama.pdb
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\Projeto Integracao Ollama.genruntimeconfig.cache
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\ref\Projeto Integracao Ollama.dll
