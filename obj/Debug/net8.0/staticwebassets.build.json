@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Bm/LhXmABwgbo/mnmQPDrgMEoD5sT6mqv7t/S1RY8Xs=",
+  "Hash": "G9beGJbZ1RzUBRwECqVywm157gFqim+hUxgAx/UZP+M=",
   "Source": "Projeto Integracao Ollama",
   "BasePath": "_content/Projeto Integracao Ollama",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\js\\atualizar.js",
+      "Identity": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\js\\editarPagina.js",
       "SourceId": "Projeto Integracao Ollama",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\",
       "BasePath": "_content/Projeto Integracao Ollama",
-      "RelativePath": "js/atualizar.js",
+      "RelativePath": "js/editarPagina.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,7 +109,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\atualizar.js"
+      "OriginalItemSpec": "wwwroot\\js\\editarPagina.js"
+    },
+    {
+      "Identity": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\js\\envioFormulario.js",
+      "SourceId": "Projeto Integracao Ollama",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\",
+      "BasePath": "_content/Projeto Integracao Ollama",
+      "RelativePath": "js/envioFormulario.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\envioFormulario.js"
     },
     {
       "Identity": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\js\\site.js",

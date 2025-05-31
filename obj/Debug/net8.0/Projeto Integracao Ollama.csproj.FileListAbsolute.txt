@@ -28,3 +28,4 @@ C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\refint
 C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\Projeto Integracao Ollama.pdb
 C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\Projeto Integracao Ollama.genruntimeconfig.cache
 C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\ref\Projeto Integracao Ollama.dll
+C:\Users\Gabriel Teles\Desktop\Projeto Integracao Ollama\obj\Debug\net8.0\Projeto Integracao Ollama.sourcelink.json

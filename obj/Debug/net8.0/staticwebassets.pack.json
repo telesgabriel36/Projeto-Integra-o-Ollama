@@ -13,8 +13,12 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\js\\atualizar.js",
-      "PackagePath": "staticwebassets\\js\\atualizar.js"
+      "Id": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\js\\editarPagina.js",
+      "PackagePath": "staticwebassets\\js\\editarPagina.js"
+    },
+    {
+      "Id": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\js\\envioFormulario.js",
+      "PackagePath": "staticwebassets\\js\\envioFormulario.js"
     },
     {
       "Id": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\js\\site.js",

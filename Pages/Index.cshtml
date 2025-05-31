@@ -11,7 +11,8 @@
 </div>
 
 @section scripts {
-    <script src="~/js/atualizar.js"></script> 
+    <script src="~/js/envioFormulario.js"></script>
+    <script src="~/js/editarPagina.js"></script> 
 }
 
 <div class="border border-2 border-color-primary mt-3" id="CampoResposta">
@@ -28,17 +29,18 @@
     <div class="text-center mt-4">
         <form method="post">
             <div class="form-group">
-                <input type="text" id="CampoPergunta" name="Pergunta" class="form-control" placeholder="Digite sua pergunta aqui..." required />
-            </div>
+                <input type="text" id="CampoPergunta" name="Pergunta" class="form-control" placeholder="Digite sua pergunta aqui..."/>
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <select class="form-select w-auto me-1"  id="campoMetodo" name="metodo"> 
                         <option value="Pergunta">Ferramentas</option>
                         <option value="ExplicarTermo">Explicar o Termo </option> 
                         <option value="AnaliseSentimento">Analisar frase</option>
-                        <option value="Resumo">Resumir Conteúdo</option>
+                        <option value="Resumo" disabled>Resumir Conteúdo</option >
                     </select>
                  <button type="button" class="btn btn-primary mt-2" id="btnAtualizarResposta">Enviar</button>
                 </div>
+                <input type="file" name="Arquivo .txt" id="Arquivotxt" accept=".txt"> @*Testando envio de arquivo local*@
+            </div
         </form>
     </div>
 
