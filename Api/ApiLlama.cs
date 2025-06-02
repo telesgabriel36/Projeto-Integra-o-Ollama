@@ -5,8 +5,9 @@ using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using Projeto_Integracao_Ollama.Services;
 
-class ApiLlama
+public class ApiLlama : IApiLlama
 {
     public async Task<string> RetornoIA(string pergunta)
     {

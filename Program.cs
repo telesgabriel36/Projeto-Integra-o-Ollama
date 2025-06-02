@@ -1,9 +1,16 @@
 using Projeto_Integracao_Ollama.Api;
+using Projeto_Integracao_Ollama.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+// Adicionando o serviço de obtenção de regras de prompt
+builder.Services.AddScoped<IRegraPromptService, RegraPromptService>();
+
+// Adicionando o serviço de chamada à API do Llama
+builder.Services.AddScoped<IApiLlama, ApiLlama>();
 
 var app = builder.Build();
 
