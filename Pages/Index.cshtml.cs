@@ -34,7 +34,9 @@ public class IndexModel : PageModel
     {
         pergunta += _regraPromptService.ObterRegra(modoPergunta);
 
-        respostaIA = await _apiLlama.RetornoIA(pergunta); // Obtendo e armazenando a resposta da IA  
+        respostaIA = "Llama diz: ";
+
+        respostaIA += await _apiLlama.RetornoIA(pergunta); // Obtendo e armazenando a resposta da IA  
 
         return new PartialViewResult // Retorna a PartialView com a resposta da IA, após o processamento da pergunta
         {

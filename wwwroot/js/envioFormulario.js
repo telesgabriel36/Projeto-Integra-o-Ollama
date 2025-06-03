@@ -3,6 +3,19 @@ $(document).ready(function () {
     const campoPergunta = $("#CampoPergunta");
     const campoMetodo = $("#campoMetodo");
     const inputArquivo = $("#Arquivotxt")[0];
+    const CampoLoading = $("#CampoLoading");
+    const CampoResposta = $("#CampoResposta");
+    const BotaoEnviar = $("#btnAtualizarResposta");
+
+    BotaoEnviar.prop("disabled", true); // Desabilita o botão enquanto processa
+
+    CampoResposta.html(""); // Limpa a resposta anterior
+
+    //Carregamento enquando a resposta é processada
+    CampoLoading.html(`<div class="d-flex justify-content-center align-items-center gap-3">
+    <strong>Carregando...</strong>
+    <div class="spinner-border" role="status" aria-hidden="true"></div>
+    </div>`);
 
     let pergunta = campoPergunta.val();
     const metodo = campoMetodo.val();
@@ -25,10 +38,14 @@ $(document).ready(function () {
       type: "POST",
       data: { pergunta: pergunta, modoPergunta: metodo },
       success: function (data) {
-        $("#CampoResposta").html(data);
+        CampoResposta.html(data);
+        CampoLoading.html(""); // Limpa o campo de carregamento
+        BotaoEnviar.prop("disabled", false); // Reabilita o botão
       },
       error: function () {
         alert("Ocorreu um erro ao obter a resposta.");
+        CampoLoading.html(""); // Limpa o campo de carregamento
+        BotaoEnviar.prop("disabled", false); // Reabilita o botão
       },
     });
   });

@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\Projeto Integracao Ollama.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\css\\estilo-neutro.css",
+      "PackagePath": "staticwebassets\\css\\estilo-neutro.css"
+    },
+    {
       "Id": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\image\\Icone Home Llama 3.jpg",
+      "PackagePath": "staticwebassets\\image\\Icone Home Llama 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\image\\Icone Ollama.png",
+      "PackagePath": "staticwebassets\\image\\Icone Ollama.png"
     },
     {
       "Id": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\js\\editarPagina.js",

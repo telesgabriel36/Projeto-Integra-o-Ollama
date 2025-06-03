@@ -9,7 +9,7 @@ $(document).ready(function () {
 
     if (arquivoTxt) {
       CampoPergunta.prop("disabled", true); // Desabilita o campo de pergunta
-      campoMetodo.prop("disabled", true); // Desabilita o campo de método
+      campoMetodo.prop("disabled", true); // Desabilita as outras opções de método
       opcaoResumo.prop("selected", true); // Joga automaticamente para a opção de resumo
     } else {
       CampoPergunta.prop("disabled", false); // Habilita o campo de pergunta

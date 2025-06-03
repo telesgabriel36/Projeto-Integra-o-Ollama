@@ -4,44 +4,44 @@
     ViewData["Title"] = "Home page";
 }
 
- <div class="border border-2">
     <div class="text-center">
-        <h1 class="display-4">Pergunte ao llama</h1>
+        <img src="/image/Icone Ollama.png" alt="ícone do llama" style="width:300px;height:90px;margin-bottom:10px;" />
     </div>
-</div>
 
-@section scripts {
-    <script src="~/js/envioFormulario.js"></script>
-    <script src="~/js/editarPagina.js"></script> 
-}
+    <div class="text-center mt-4" id="CampoLoading">
+         @*Onde é redenrizado o loading*@
+    </div> 
 
-<div class="border border-2 border-color-primary mt-3" id="CampoResposta">
-    <div class="text-center ">    
+    <div class="text-start bg-light text-dark mt-2" id="CampoResposta"> 
         @await Html.PartialAsync("_ParcialViewResposta", @Model.respostaIA)
-    </div>
-</div>  
+    </div> 
 
-<div class="border border-2" style="margin-top: 280px;">
-    <div class="text-center mt-2">
+    <div class="text-center mt-5">
         <h2>Faça sua Pergunta</h2>
     </div>
 
     <div class="text-center mt-4">
-        <form method="post">
-            <div class="form-group">
-                <input type="text" id="CampoPergunta" name="Pergunta" class="form-control" placeholder="Digite sua pergunta aqui..."/>
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                    <select class="form-select w-auto me-1"  id="campoMetodo" name="metodo"> 
+        <form method="post" class="formulario-llama mx-auto">
+            <div class="form-group mb-3">
+                <input type="text" id="CampoPergunta" name="Pergunta" class="form-control form-control-lg mb-3" placeholder="Digite sua pergunta aqui..."/>
+                <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mb-3 gap-2">
+                    <select class="form-select w-25 w-md-auto me-md-1 mb-2 mb-md-0"  id="campoMetodo" name="metodo"> 
                         <option value="Pergunta">Ferramentas</option>
                         <option value="ExplicarTermo">Explicar o Termo </option> 
-                        <option value="AnaliseSentimento">Analisar frase</option>
+                        <option value="AnaliseSentimento">Analisar Sentimento</option>
                         <option value="Resumo" disabled>Resumir Conteúdo</option >
                     </select>
-                 <button type="button" class="btn btn-primary mt-2" id="btnAtualizarResposta">Enviar</button>
+                    <input type="file" name="Arquivo .txt" id="Arquivotxt" accept=".txt" class="form-control-file mt-2">
+                    <button type="button" class="btn btn-primary btn-lg mt-2 mt-md-0" id="btnAtualizarResposta">Enviar</button>
                 </div>
-                <input type="file" name="Arquivo .txt" id="Arquivotxt" accept=".txt"> @*Testando envio de arquivo local*@
-            </div
+                 @*Testando envio de arquivo local*@
+            </div>
         </form>
     </div>
 
-</div>
+    @section scripts {
+    <script src="~/js/envioFormulario.js"></script>
+    <script src="~/js/editarPagina.js"></script> 
+    <link rel="stylesheet" href="~/css/estilo-neutro.css" />
+}
+
