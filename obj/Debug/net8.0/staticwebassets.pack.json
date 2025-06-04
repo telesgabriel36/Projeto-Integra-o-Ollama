@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\js\\envioFormulario.js"
     },
     {
+      "Id": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\js\\lerResposta.js",
+      "PackagePath": "staticwebassets\\js\\lerResposta.js"
+    },
+    {
       "Id": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

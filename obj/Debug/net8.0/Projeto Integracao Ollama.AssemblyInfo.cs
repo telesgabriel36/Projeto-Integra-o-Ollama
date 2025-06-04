@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projeto Integracao Ollama")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+969d1414dc87a4fccc31fa67e4527efbefbefc25")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13613fd3df13bde62bef183cae6ac6e371670538")]
 [assembly: System.Reflection.AssemblyProductAttribute("Projeto Integracao Ollama")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projeto Integracao Ollama")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

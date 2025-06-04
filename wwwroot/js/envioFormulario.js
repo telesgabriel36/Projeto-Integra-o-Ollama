@@ -8,8 +8,8 @@ $(document).ready(function () {
     const BotaoEnviar = $("#btnAtualizarResposta");
 
     BotaoEnviar.prop("disabled", true); // Desabilita o botão enquanto processa
-
     CampoResposta.html(""); // Limpa a resposta anterior
+    $("#btnOuvirResposta").prop("hidden", true); // Esconde o botão de ouvir resposta
 
     //Carregamento enquando a resposta é processada
     CampoLoading.html(`<div class="d-flex justify-content-center align-items-center gap-3">
@@ -41,6 +41,7 @@ $(document).ready(function () {
         CampoResposta.html(data);
         CampoLoading.html(""); // Limpa o campo de carregamento
         BotaoEnviar.prop("disabled", false); // Reabilita o botão
+        $("#btnOuvirResposta").prop("hidden", false);
       },
       error: function () {
         alert("Ocorreu um erro ao obter a resposta.");

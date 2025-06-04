@@ -16,6 +16,10 @@
         @await Html.PartialAsync("_ParcialViewResposta", @Model.respostaIA)
     </div> 
 
+    <div class="text-center mt-3">
+        <button type="button" class="btn btn-info btn-sm" id="btnOuvirResposta" hidden>Ouvir Resposta</button>
+    </div>
+
     <div class="text-center mt-5">
         <h2>Faça sua Pergunta</h2>
     </div>
@@ -42,6 +46,7 @@
     @section scripts {
     <script src="~/js/envioFormulario.js"></script>
     <script src="~/js/editarPagina.js"></script> 
+    <script src="~/js/lerResposta.js"></script>
     <link rel="stylesheet" href="~/css/estilo-neutro.css" />
 }
 

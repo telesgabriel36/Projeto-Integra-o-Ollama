@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SU8OxxsrMIRjqSH0iDYAPSubbl362Jv01s/BRvnRuco=",
+  "Hash": "QlsrgfaJITGudxOGExgtlsl4z3aL3FDsbQ/XHEQhQaM=",
   "Source": "Projeto Integracao Ollama",
   "BasePath": "_content/Projeto Integracao Ollama",
   "Mode": "Default",
@@ -186,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\envioFormulario.js"
+    },
+    {
+      "Identity": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\js\\lerResposta.js",
+      "SourceId": "Projeto Integracao Ollama",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\",
+      "BasePath": "_content/Projeto Integracao Ollama",
+      "RelativePath": "js/lerResposta.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\lerResposta.js"
     },
     {
       "Identity": "C:\\Users\\Gabriel Teles\\Desktop\\Projeto Integracao Ollama\\wwwroot\\js\\site.js",
