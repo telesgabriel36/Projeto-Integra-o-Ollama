@@ -17,9 +17,16 @@ O sistema "Pergunte ao Llama" atua como uma aplicação web, disponibilizando um
 - Explicar termo: A resposta é dada de maneira a explicar o termo de forma conceitual, limitando a resposta em no máximo 100 palavras.
 - Analise de Sentimento: O llama analisa a frase e responde de forma clara e objetiva se ela é positiva, negatina ou neutra.
 - Resumir Conteúdo: O arquivo .Txt anezado e enviado é interpretado e seu conteúdo é retornado de forma resumida na resposta.
+- Ouvir resposta: Toda resposta obtida pode ser ouvida através da função de aúdio.
 
 ## Capturas de tela 
 
 ### Página Inicial da Aplicação
 Visual minimalista e intuitívo.
-![Tela Inicial]()
+
+![Tela Inicial](/docs/images/Pagina-Inicial.png)
+
+### Demonstração 
+Utilização da funcionalidade "Explique o Termo"
+
+![Explique o Termo](docs/images/Sistema-Rodando.gif)
