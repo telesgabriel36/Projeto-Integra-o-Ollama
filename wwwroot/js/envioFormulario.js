@@ -8,7 +8,7 @@ $(document).ready(function () {
     const BotaoEnviar = $("#btnAtualizarResposta");
 
     BotaoEnviar.prop("disabled", true); // Desabilita o botão enquanto processa
-    CampoResposta.html(""); // Limpa a resposta anterior
+    CampoResposta.html(""); // Limpa a resposta anterior (em caso de nova pergunta)
     $("#btnOuvirResposta").prop("hidden", true); // Esconde o botão de ouvir resposta
 
     //Carregamento enquando a resposta é processada
