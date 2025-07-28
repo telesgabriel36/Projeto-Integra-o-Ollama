@@ -1,5 +1,8 @@
 # Pergunte ao Llama - Sistema de perguntas ao modelo de IA OLLAMA 
 
+## Licença
+[![License](https://img.shields.io/github/license/telesgabriel36/Projeto-Integra-o-Ollama)](./LICENSE)
+
 ## Sobre
 O projeto foi desenvolvido durante o 5° semestre do curso de Analise e Desenvolvimento de Sistemas, dentro da disciplina de Tópicos Especiais.
 
