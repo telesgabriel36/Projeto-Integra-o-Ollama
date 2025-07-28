@@ -1,14 +1,14 @@
-# Pergunte ao Llama - Sistema de perguntas ao modelo de IA Llama 3 
+# Pergunte ao Llama - Sistema de perguntas ao modelo de IA OLLAMA 
 
 ## Sobre
 O projeto foi desenvolvido durante o 5° semestre do curso de Analise e Desenvolvimento de Sistemas, dentro da disciplina de Tópicos Especiais.
 
-O sistema "Pergunte ao Llama" atua como uma aplicação web, disponibilizando uma interface de interação através de texto que permite ao usuário fazer perguntas e obter respostas do model de IA LLAMA 3. 
+O sistema "Pergunte ao Llama" atua como uma aplicação web, disponibilizando uma interface de interação através de texto que permite ao usuário fazer perguntas e obter respostas do Ollama, especificamente o llama3. 
 
 ## Tecnologias
 - C#
 - ASP.NET Core Razor Pages.
-- Llama 3
+- Ollama (especificamente o llama3)
 - JavaScript + AJAX
 - Bootstrap
 
@@ -30,3 +30,41 @@ Visual minimalista e intuitívo.
 Utilização da funcionalidade "Explique o Termo"
 
 ![Explique o Termo](docs/images/Sistema-Rodando.gif)
+
+## Pré-Requisitos
+- [.NET SDK 8.0 ou superior](https://dotnet.microsoft.com/en-us/download)
+- [Visual Studio 2022 ou superior](https://visualstudio.microsoft.com/)
+- Git (para clonar o repositório)
+- [Ollama 0.6.8 ou superior](https://ollama.com/)
+
+## Como executar o projeto
+
+1 - Clonar o repositório
+
+``` bash
+git clone https://github.com/telesgabriel36/Projeto-Integra-o-Ollama.git
+```
+
+2 - Acessar o diretório do projeto
+
+``` bash
+cd Projeto-Integra-o-Ollama
+```
+
+3 - Restaurar pacotes
+
+``` bash
+dotnet restore
+```
+
+4 - Executar projeto
+
+```
+dotnet run
+```
+
+# Autor
+
+*Gabriel Vieira Teles*
+
+https://www.linkedin.com/in/gabriel-vieira-teles-8755142a0/
